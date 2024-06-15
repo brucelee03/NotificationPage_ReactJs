@@ -1,0 +1,85 @@
+/* Write your code here. */
+.notification-container {
+  background-color: #ffffff;
+  background-size: cover;
+  height: 100vh;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+  padding: 10px;
+}
+.icon-img {
+  height: 30px;
+  width: 30px;
+}
+.information {
+  background-color: #0b69ff;
+}
+.success {
+  background-color: #2dca73;
+}
+.warning {
+  background-color: #ffb800;
+}
+.danger {
+  background-color: #ff0b37;
+}
+@media (max-width: 576px) {
+  .heading {
+    font-size: 45px;
+    color: #0f172a;
+  }
+  .notification-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    gap: 20px;
+  }
+  .msg-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 80%;
+    padding: 14px;
+    border-radius: 8px;
+    gap: 20px;
+  }
+  .msg {
+    color: #ffffff;
+    font-size: 20px;
+  }
+}
+@media (min-width: 767px) {
+  .heading {
+    font-size: 65px;
+    color: #0f172a;
+  }
+  .notification-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    gap: 35px;
+  }
+  .msg-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 80%;
+    padding: 19px;
+    border-radius: 8px;
+    gap: 25px;
+  }
+  .msg {
+    color: #ffffff;
+    font-size: 25px;
+  }
+}
